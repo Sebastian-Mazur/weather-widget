@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.app-container {
+    margin: 0 auto;
+    max-width: 1200px;          
+}
+
+.weather-container {
+    width: 600px;
+    margin: 0 auto;
+    color: #ffffff;
+    height: 40vh; 
+    padding-top: 30px;
+}
+
+.currentWeather {
+    background: #147eaf; /* For browsers that do not support gradients */
+    background: linear-gradient(to bottom right, #0c6991, #47abda);    
+    position: relative;
+    padding: 10px;
+}
+
+.currentWeather p {
+    margin: 0;
+    padding: 5px;    
+}
+
+.date {
+    font-size: 20px;
+}
+
+.weather-location {    
+    font-size: 30px;
+}
+
+.icon {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.temp-graffic {
+    text-align: right;      
+}
+
+.temp-graffic p {
+    padding-top: 10px;      
+}
+
+.temp {
+    font-size: 70px;
+}
+
+.forecast {
+    border: solid 1px #c4b9b9;
+    background-color: #42809c;
+    padding: 3px;
+}
+
+.forecast p {
+    margin: 3px;
+    display: inline;
+}
